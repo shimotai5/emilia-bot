@@ -1,0 +1,47 @@
+{
+  "name": "emilia-bot",
+  "version": "0.1.0",
+  "description": "Emilia-bot facilitate meeting on the slack.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node examples/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js ."
+  },
+  "engines": {
+    "node": ">= 4.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shimotai5/emilia-bot.git"
+  },
+  "keywords": [
+    "meeting",
+    "facilitator",
+    "slack",
+    "bot"
+  ],
+  "author": "Taigo SHIMOYAMA",
+  "email": "taigo.shimoyama@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shimotai5/emilia-bot/issues"
+  },
+  "homepage": "https://github.com/shimotai5/emilia-bot#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "botkit": "^0.4.10",
+    "camelcase": "^4.0.0",
+    "deep-assign": "^2.0.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.17.1",
+    "moment-duration-format": "^1.3.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}

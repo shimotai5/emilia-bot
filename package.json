@@ -1,6 +1,6 @@
 {
   "name": "emilia-bot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Emilia-bot facilitate meeting on the slack.",
   "main": "index.js",
   "scripts": {

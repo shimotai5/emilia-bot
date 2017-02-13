@@ -2,6 +2,8 @@
 
 Emilia-bot facilitate meeting on slack.
 
+![demo](https://raw.githubusercontent.com/wiki/shimotai5/emilia-bot/images/demo.gif)
+
 ## Installation
 
 `npm install emilia-bot`
